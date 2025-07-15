@@ -31,8 +31,8 @@ Follow these simple steps to set up, run, and deploy your agent.
 First, clone your GitHub repo:
 
 
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
-cd <YOUR_REPO>
+git clone https://github.com/nagavallikareeethu
+
 2️⃣ Create a virtual environment
 Create and activate a Python virtual environment to keep your packages organized.
 
@@ -76,7 +76,7 @@ git init
 git add .
 git commit -m "Initial commit: LangGraph Ollama Gradio Agent"
 git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
+git remote add origin https://github.com/nagavallikareethu
 git push -u origin main
 ✅ ✅ Optional: How It Works
 agent_graph.py sets up:
