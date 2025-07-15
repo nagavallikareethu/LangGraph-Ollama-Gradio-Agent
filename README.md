@@ -93,5 +93,6 @@ It goes through the LangGraph
 
 The graph calls Ollama for a reply
 
-The answer shows in your browser!
+<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/67f7666c-f39e-48f8-a754-d161177396ca" />
+
 
