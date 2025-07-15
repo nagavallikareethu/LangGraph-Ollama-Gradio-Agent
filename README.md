@@ -17,9 +17,6 @@ langgraph_agent/
 ├── README.md
 └── .gitignore
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -39,9 +36,7 @@ cd <YOUR_REPO>
 2️⃣ Create a virtual environment
 Create and activate a Python virtual environment to keep your packages organized.
 
-bash
-Copy
-Edit
+
 # Create
 python -m venv venv
 
@@ -53,17 +48,13 @@ source venv/bin/activate
 3️⃣ Install dependencies
 Install all required Python packages:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4️⃣ Pull and run Ollama models
 Make sure Ollama is installed and running.
 Start by pulling a model like mistral:
 
-bash
-Copy
-Edit
+
 ollama pull mistral
 ollama serve
 ollama serve starts the Ollama server on localhost:11434 by default.
@@ -71,9 +62,7 @@ ollama serve starts the Ollama server on localhost:11434 by default.
 5️⃣ Run the Gradio Agent
 Now launch your agent with:
 
-bash
-Copy
-Edit
+
 python agent_graph.py
 Gradio will start and show a local link like:
 Running on http://127.0.0.1:7860
@@ -82,9 +71,7 @@ Open that link in your browser to test your agent!
 6️⃣ Push to GitHub
 When everything works, push your project:
 
-bash
-Copy
-Edit
+
 git init
 git add .
 git commit -m "Initial commit: LangGraph Ollama Gradio Agent"
